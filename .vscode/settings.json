@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.env.windows": {
+        "PATH": "${env:PATH};C:\\Program Files\\SDCC\\bin;C:\\Program Files (x86)\\Nuvoton Tools\\NuLink Command Tool;"
+    }
+}

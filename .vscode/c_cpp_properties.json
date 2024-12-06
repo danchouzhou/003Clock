@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "NuMicro 8051",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "__SDCC__",
+                "__CDT_PARSER__"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

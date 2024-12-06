@@ -1,0 +1,3 @@
+[submodule "firmware/N76E003_BSP"]
+	path = firmware/N76E003_BSP
+	url = https://github.com/OpenNuvoton/N76E003_BSP.git

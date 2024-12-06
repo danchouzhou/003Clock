@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "N76E003AT20")(type "KiCad")(uri "${KIPRJMOD}/N76E003AT20.kicad_sym")(options "")(descr ""))
+  (lib (name "LGC-12002")(type "KiCad")(uri "${KIPRJMOD}/LGC-12002.kicad_sym")(options "")(descr ""))
+)
