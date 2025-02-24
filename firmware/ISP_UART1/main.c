@@ -140,8 +140,8 @@ void main(void)
                     Package_checksum();
                     uart_txbuf[8] = DID_lowB;
                     uart_txbuf[9] = DID_highB;
-                    uart_txbuf[10] = PID_lowB;
-                    uart_txbuf[11] = PID_highB;
+                    uart_txbuf[10] = 0;
+                    uart_txbuf[11] = 0;
                     Send_64byte_To_UART1();
                     break;
 

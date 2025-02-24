@@ -26,8 +26,10 @@ Simply ``./build.bat``. ``main.bin`` should be inside the ``Objects`` folder.
 ```
 ### Flash the firmware without a Nu-Link programmer (ISP)
 1. Download the [NuMicro ISP Programming Tool](https://www.nuvoton.com/tool-and-software/software-tool/programmer-tool/)
-2. Connect the target device with USB-UART adapter\
-![image](firmware/ISP_UART1/isp.png)
+2. Connect USB-UART adapter to PC
 3. Select the COM port and then press `connect`\
-![image](firmware/ISP_UART1/isp2.png)
-4. Power on the target device, ISP Tool should show `connected`
+![image](firmware/ISP_UART1/danny-20250224-ISP-standby.jpg)
+4. Connect the target device to the USB-UART adapter, ISP Tool should show `connected`\
+![image](firmware/ISP_UART1/danny-20250224-ISP-connection.jpg)
+5. Select APROM file and check `APROM` and `Reset and Run`, then press `Start`\
+![image](firmware/ISP_UART1/danny-20250224-ISP-program.jpg)
