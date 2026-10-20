@@ -19,7 +19,7 @@
 #define BYTE_PROGRAM_CONFIG  0xE1
 #define READ_UID             0x04
 #define PAGE_SIZE            128
-#define APROM_SIZE           4*1024  
+#define APROM_SIZE           16*1024  
 
 extern BIT volatile bUartDataReady;
 extern BIT volatile g_timer0Over;
